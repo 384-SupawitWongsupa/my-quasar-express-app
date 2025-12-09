@@ -12,11 +12,11 @@ app.get('/api/demo', (req, res) => {
             detail: 'Git is a distributed version control system that tracks changes in any set of computer files.'
         },
         docker: {
-            detail: 'Docker is a set of platform as a service products that use OS-level virtualization to deliver software in packages called containers.'
+            detail: 'ศุปวิทย์ วงศ์สุภา 6604101384'
         }
     });
 });
 
 app.listen(port, () => {
-    console.log(`Backend server running at http://localhost:${port}`);
+    console.log(`Backend server running at http://localhost:${3000}`);
 });
